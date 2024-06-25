@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
-encoder = joblib.load(r'Models\encoder.joblib')
+encoder = joblib.load(r'Models/encoder.joblib')
 
 def encode(input_value):
   columns_to_encode = ['ethnicity', 'gender', 'icu_type', 'apache_3j_bodysystem', 'apache_2_bodysystem']
