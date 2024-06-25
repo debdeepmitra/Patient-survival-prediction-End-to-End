@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from helper import encode, get_prediction
 
-model = tf.keras.models.load_model(r'Models\model.h5')
+model = tf.keras.models.load_model(r'Models/model.h5')
 
 st.set_page_config(page_title ='Patient Survival Prediction', page_icon = '🩺', layout ='wide')
 st.markdown("<h1 style = 'text-align: center;'>Patient Survival Prediction 🩺</h1>", unsafe_allow_html=True)
